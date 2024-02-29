@@ -10,14 +10,6 @@ public class RandomPass {
     public static String getRandomPassword(int length){
         Scanner sc = new Scanner(System.in);
 
-        //Pasar a un ENUM las constantes
-        //validaciones por codigo ascci
-        //Switch case por boolean metodo
-        /*String numeros = "1234567890";
-        String letrasMinusculas = "qwertyuiopasdfghjklzxcvbnm";
-        String letrasMayusculas = letrasMinusculas.toUpperCase();
-        String caracteres = "!@#$%^&*()_+{}[]";*/
-
         StringBuilder totalCaracteres = new StringBuilder();
         StringBuilder randomPassword = new StringBuilder();
         System.out.println("A continuación deberá responder unas preguntas..");
